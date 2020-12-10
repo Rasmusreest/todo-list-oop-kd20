@@ -105,3 +105,6 @@ function saveResponses() {
     localStorage.taskTask('submit')
     localStorage.setItem("task", addTask.value);
 }
+
+// create new Local Storage object
+const ls = new LS();
