@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01323b63-1bb6-420a-92ad-8f25635af88b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ToDo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="01323b63-1bb6-420a-92ad-8f25635af88b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +51,7 @@
       <updated>1607344220309</updated>
       <workItem from="1607344221357" duration="3969000" />
       <workItem from="1607624084401" duration="845000" />
+      <workItem from="1607691928522" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="Local storage not working properly yet">
       <created>1607348221522</created>
