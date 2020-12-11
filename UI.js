@@ -13,7 +13,7 @@ class UI {
         const form = document.querySelector('#task-form');
         // add alert info html
         card.insertBefore(div, form);
-        // set alert messega up to 5 sec
+        // set alert message up to 5 sec
         setTimeout(function () {
             document.querySelector(".alert").remove();
         }, 5000);
