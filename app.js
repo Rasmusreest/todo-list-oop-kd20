@@ -1,12 +1,17 @@
 // define variables
 const form = document.querySelector('#task-form');
 const taskList = document.querySelector('#tasks-list');
-
+const clearBtn = document.querySelector('#clear-tasks');
+const filterInput = document.querySelector('#filter');
 // define event listeners
 // page reload event - get data from Local Storage
 document.addEventListener('DOMContentLoaded', getTasks);
 // add task to list - submit button
 form.addEventListener('submit', addTask);
+//clear tasks
+clearBtn.addEventListener('click', clearTasks);
+// filter task from list
+filterInput.addEventListener('keyup', filterTasks);
 
 // addTask function
 function addTask(e) {
@@ -46,4 +51,26 @@ function getTasks() {
         // create UI object for html list item
         ui.addTaskToTable(taskData);
     });
+}
+
+// alert when trying to add task that's already on the list
+// clear all the tasks
+function clearTasks(e) {
+    taskList.innerHTML = '';
+    localStorage.clear();
+}
+
+// filterTasks function
+function filterTasks(e) {
+    const text = e.target.value.toLowerCase();
+    document.querySelectorAll('#tasks-list').forEach(
+        function (task) {
+            const item = task.firstChild.textContent.toLowerCase();
+            if (item.indexOf(text) != -1) {
+                task.style.display = 'block';
+            } else {
+                task.style.display = 'none';
+            }
+        }
+    );
 }

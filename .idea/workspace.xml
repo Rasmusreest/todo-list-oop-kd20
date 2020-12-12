@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01323b63-1bb6-420a-92ad-8f25635af88b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LS.js" beforeDir="false" afterPath="$PROJECT_DIR$/LS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,8 @@
       <updated>1607344220309</updated>
       <workItem from="1607344221357" duration="3969000" />
       <workItem from="1607624084401" duration="845000" />
-      <workItem from="1607691928522" duration="6577000" />
+      <workItem from="1607691928522" duration="7282000" />
+      <workItem from="1607774663223" duration="3885000" />
     </task>
     <task id="LOCAL-00001" summary="Local storage not working properly yet">
       <created>1607348221522</created>
@@ -84,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607698788416</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add task data to LS and get data from LS">
+      <created>1607699072265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607699072265</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,10 +123,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="281" key="Vcs.Push.Dialog.v2" timestamp="1607698789826">
+    <state x="1032" y="281" key="Vcs.Push.Dialog.v2" timestamp="1607699073483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1607348222878" />
-    <state x="1032" y="281" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607698789826" />
+    <state x="1032" y="281" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607699073483" />
   </component>
 </project>
