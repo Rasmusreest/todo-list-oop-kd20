@@ -63,7 +63,7 @@ function clearTasks(e) {
 // filterTasks function
 function filterTasks(e) {
     const text = e.target.value.toLowerCase();
-    document.querySelectorAll('#tasks-list').forEach(
+    document.querySelectorAll('.collection-item').forEach(
         function (task) {
             const item = task.firstChild.textContent.toLowerCase();
             if (item.indexOf(text) != -1) {
